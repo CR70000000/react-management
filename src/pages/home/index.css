@@ -1,0 +1,79 @@
+.home img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 40px;
+}
+
+.home .name {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.home .user {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.home .logininfo p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #999999;
+}
+
+.home .logininfo p span {
+  color: #666666;
+  margin-left: 60px;
+}
+
+.home .num {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.home .num .ant-card {
+  width: 33%;
+}
+
+.home .num .ant-card-body {
+  display: flex;
+  padding: 10px 25px;
+}
+
+.home .num .iconbox {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  line-height: 85px;
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.home .anticon {
+  font-size: 30px;
+}
+
+.home .num .detail {
+  margin-left: 15px;
+}
+
+.home .num .detail .num {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.home .num .detail .txt {
+  font-size: 14px;
+  text-align: center;
+  color: #999999;
+}
+
+.home .graph {
+  display: flex;
+  margin-top: 20px;
+}
